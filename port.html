@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="keywords" content="maps, cartography"/>
+		<title>Karl Pawinski's Portfolio</title>
+		
+		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link href="https://bootswatch.com/3/slate/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery.js"></script>
+        
+    </head>
+    
+<body>
+   
+
+
+<nav class="navbar navbar-default navbar-fixed-top ">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/index.html" class="navbar-brand">Karl Pawinski</a>
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                <spam class="icon-bar"></spam>
+                <spam class="icon-bar"></spam>
+                <spam class="icon-bar"></spam>
+
+            </button>
+        
+        </div>
+        <div class="collapse navbar-collapse" id="mydropdown">
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">About</a></li>
+                <li class="active"><a href="port.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="row-fluid">
+    <ul class="thumbnails">
+        <li class="col-sm-4">
+            <article class="thumbnail">
+                <a href="index.html">
+                    <img src="assets/dog.jpg" alt="dog">
+                </a>
+                <h3> This is a dog</h3>
+                <p> Problem?</p>
+            </article>
+        </li>
+        <li class="col-sm-4">
+            <article class="thumbnail">
+                <a href="index.html">
+                    <img src="assets/dog.jpg" alt="dog">
+                </a>
+                <h3> This is a dog</h3>
+                <p> Problem?</p>
+            </article>
+        </li>
+        <li class="col-sm-4">
+            <article class="thumbnail">
+                <a href="index.html">
+                    <img src="assets/dog.jpg" alt="dog">
+                </a>
+                <h3> This is a dog</h3>
+                <p> Problem?</p>
+            </article>
+        </li>
+    </ul>
+    
+</div>
+
+   
+<script>
+    $(".nav li").on("click", function(){
+        $(".nav li").removeClass("active");
+        $(this).addClass("active");
+    });
+    </script>   
+</body>

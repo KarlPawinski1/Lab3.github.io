@@ -1,0 +1,23 @@
+.jumbotron {
+    padding-top: 60px;
+    width: 100%;
+    background-image: url(/assets/landfilter.jpg);
+    background-size: cover;
+}
+#mycarousel {
+    width:100%;
+
+}
+
+#myabout {
+    text-align: left;
+
+}
+
+#myjumbo {
+    text-align: center;
+    color:   #272b30;
+}
+#mycontainer {
+    align-content: center;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="keywords" content="maps, cartography"/>
+		<title>Karl Pawinski's Portfolio</title>
+        <script src="js/jquery.js"></script>		
+		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery.js"></script>
+        <link href="https://bootswatch.com/3/slate/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+        
+    </head>
+    
+<body>
+   
+
+
+<nav class="navbar navbar-default navbar-fixed-top ">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/index.html" class="navbar-brand">Karl Pawinski</a>
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                <spam class="icon-bar"></spam>
+                <spam class="icon-bar"></spam>
+                <spam class="icon-bar"></spam>
+
+            </button>
+        
+        </div>
+        <div class="collapse navbar-collapse" id="mydropdown">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">About</a></li>
+                <li><a href="#mythumb"  data-toggle="collapse" data-target=".navbar-collapse.in" class="js-scroll">Portfolio</a></li>
+                <li><a href="/assets/Resume_Karl%20Pawinski_.pdf">Resume</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    
+<div class="jumbotron">
+    <div class="container" id="myjumbo">
+        <h1> Karl Pawinski</h1>
+        <h3>Good Guy | Chef | Cheif</h3>
+    </div>
+</div>
+<!--
+<div class="row-fluid" >
+    <div class="col-sm-12">
+    <div class="carousel slide" id="mycarousel" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="assets/me.jpg">
+            </div>
+            <div class="item">
+                <img src="assets/landfilter.tif">
+            </div>
+            <div class="item">
+                <img src="assets/me2.jpg">
+            </div>
+        </div>
+
+    </div>
+    </div>
+</div>
+-->
+<div class="container" id="mycontainer">
+<div class="row-fluid" id="myabout">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+        <h2>Hi There!</h2>
+        <p>My name is Karl Pawinski and I am currently working toward an MS in GIS & Cartography from the UW Madison, and am working part time as a carpentor to support myself while I continue my education.  My interests include Data Journalism, data analysis and ecology. </p>
+        <h2>Technical Skills</h2>
+        <p>ArcGIS | DBMS | SQL | Python | Javascript | HTML | CSS </p>
+        <h2>Education</h2>
+        <p>University of Wisconsin, Whitewater <br/>
+                B.S | Biology | 2017 <br/>
+                University of Wisconsin, Madison <br/>
+                M.S. | GIS Cartography | 2018</p>
+    </div>
+    
+</div> 
+</div>
+<div class="row-fluid" id="mythumb">
+    <ul class="thumbnails">
+        <li class="col-sm-4">
+            <article class="thumbnail">
+                <a href="/assets/infographic.pdf">
+                    <img src="assets/info.jpg" alt="dog">
+                </a>
+                <h3> This is a dog</h3>
+                <p> Problem?</p>
+            </article>
+        </li>
+        <li class="col-sm-4">
+            <article class="thumbnail">
+                <a href="/assets/Lab2_KarlPawinski.pdf">
+                    <img src="assets/bike.jpg" alt="dog">
+                </a>
+                <h3> This is a dog</h3>
+                <p> Problem?</p>
+            </article>
+        </li>
+        <li class="col-sm-4">
+            <article class="thumbnail">
+                <a href="index.html">
+                    <img src="assets/dog.jpg" alt="dog">
+                </a>
+                <h3> This is a dog</h3>
+                <p> Problem?</p>
+            </article>
+        </li>
+    </ul>
+    
+</div>
+<script>
+    $(".nav li").on("click", function(){
+        $(".nav li").removeClass("active");
+        $(this).addClass("active");
+    });
+    </script>   
+</body>

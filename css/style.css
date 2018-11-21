@@ -16,8 +16,12 @@
 
 #myjumbo {
     text-align: center;
-    color:   #272b30;
+    color: coral;
 }
 #mycontainer {
     align-content: center;
 }
+
+#mypic2 {
+    max-width: 50%;
+
